@@ -3,6 +3,8 @@ import DateRangePicker, { DateRange } from '@mui/lab/DateRangePicker';
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 
+import './DateRangeSelect.css';
+
 export function DateRangeSelect() {
   const [value, setValue] = React.useState<DateRange<Date>>([null, null]);
 
@@ -15,11 +17,11 @@ export function DateRangeSelect() {
         setValue(newValue);
       }}
       renderInput={(startProps, endProps) => (
-        <React.Fragment>
+        <div className='DateRangeSelect'>
           <TextField {...startProps} />
           <Box sx={{ mx: 2 }}> to </Box>
           <TextField {...endProps} />
-        </React.Fragment>
+        </div>
       )}
     />
   );

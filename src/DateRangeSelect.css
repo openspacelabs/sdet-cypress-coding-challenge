@@ -1,0 +1,6 @@
+.DateRangeSelect {
+  display: grid;
+  gap: 8px;
+  grid-auto-flow: column;
+  place-items: center;
+}
