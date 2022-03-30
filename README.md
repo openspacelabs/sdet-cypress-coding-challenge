@@ -2,6 +2,8 @@
 
 This challenge is a part of the hiring process at OpenSpace for the Software Development Engineer in Test position. 
 
+![cypress](https://i.imgur.com/1oavJOB.png)
+
 ### The Challenge
 
 **Your mission, should you choose to accept it, is to write some Cypress tests that assert correct behaviors for the MUI DateRangePicker component.**
