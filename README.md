@@ -1,6 +1,4 @@
-## OpenSpace SDET Takehome Coding Challenge
-
-This challenge is a part of the hiring process at OpenSpace for the Software Development Engineer in Test position. 
+This challenge is a part of the hiring process For QA. 
 
 ![cypress](https://i.imgur.com/1oavJOB.png)
 
@@ -47,3 +45,6 @@ You can focus on simple, fundamental functionality or more advanced props usage,
 
 We prefer you implement your tests in TypeScript, but we also welcome submissions in javascript.
 Just implement your tests in `cypress/integration/DateRangePicker.spec.js`
+
+
+Credits to https://github.com/openspacelabs/sdet-cypress-coding-challenge
