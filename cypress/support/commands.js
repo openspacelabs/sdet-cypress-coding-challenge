@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('checkDatesFields', (BeginDate, EndDate) => {
+    cy.get(BeginDate);
+    cy.get(EndDate);
+  });
+  
