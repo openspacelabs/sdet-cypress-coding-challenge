@@ -1,9 +1,8 @@
 import { MuiTextField, MonthLabel } from '../test data/TestData.js';
 
 describe('DateRangePicker', () => {
-  it('should render', () => {
+  before(function () {
     cy.visit('/');
-    cy.get('.DateRangeSelect').should('be.visible');
   });
   it('should dispaly the calendar', () => {
     cy.get(MuiTextField).eq(0).click();
