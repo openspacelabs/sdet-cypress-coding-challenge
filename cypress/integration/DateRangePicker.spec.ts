@@ -5,7 +5,7 @@ describe('DateRangePicker', () => {
     cy.visit('/');
   });
   it('should dispaly the calendar', () => {
-    cy.get(MuiTextField).eq(0).click();
+    cy.get(MuiTextField).eq(0).type('11/01/2022').type('{enter}');
     cy.get(MonthLabel)
       .should('contain', 'November 2022')
       .and('contain', 'December 2022');
